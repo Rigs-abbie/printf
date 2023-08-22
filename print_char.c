@@ -8,6 +8,6 @@
 
 int print_char(char c)
 {
-	_putchar(c);
+	our_putchar(c);
 	return (1);
 }

@@ -14,12 +14,12 @@ int print_int(int num)
 
 	if (num == 0)
 	{
-		_putchar('0');
+		our_putchar('0');
 		return (1);
 	}
 	if (num < 0)
 	{
-		_putchar('-');
+		our_putchar('-');
 		num = -num;
 		len++;
 	}
@@ -40,7 +40,7 @@ int print_int(int num)
 	}
 	while (i > 0)
 	{
-		_putchar('0' + digits[i - 1]);
+		our_putchar('0' + digits[i - 1]);
 		i--;
 		len++;
 	}

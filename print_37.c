@@ -9,6 +9,6 @@
 int print_37(char c)
 {
 	c = '%';
-	_putchar(c);
+	our_putchar(c);
 	return (1);
 }
